@@ -1,0 +1,84 @@
+
+.icoUl{
+	width:100%;
+	overflow: hidden;
+	padding-bottom:60px;
+}
+.icoUl li{
+	padding:10px 0px;
+}
+.icoUl li img{
+	width:180px;
+	height:auto;
+	cursor: pointer;
+}
+
+.swiper-container1 {
+	width: 100%;
+	height: 100%;
+	padding:0px 100px 60px 100px;
+	box-sizing: border-box;
+}
+.swiper-container2 {
+	width: 100%;
+	height: 100%;
+	padding:0px 0px 60px 0px;
+	box-sizing: border-box;
+}
+.swiper-container1  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	background-position: center;
+	background-size: cover;
+}
+.swiper-button-prev{
+	background-image: url("../img/index/prev.png");
+	background-size: 60px 60px;
+	width:60px;
+	height:60px;
+	left:0;
+	top: 420px;
+	outline: none
+}
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after{
+	content: '';
+}
+.swiper-button-next{
+	background-image: url("../img/index/next.png");
+	background-size: 60px 60px;
+	width:60px;
+	height:60px;
+	right:0;
+	top: 420px;
+	outline: none
+}
+.swiper-button-next::after{
+	content: '';
+}
+
+.icoUl1 li:hover img{
+	border-radius: 50%;
+	box-shadow: 0px 2px 15px  #ff0000;
+}
+.icoUl2 li:hover img{
+	opacity: 0.8;
+}
+.icoUl3 li:hover img{
+	box-shadow: 0px 2px 15px  #ff0000;
+
+}

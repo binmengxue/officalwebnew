@@ -1,0 +1,82 @@
+.ContText>p.p:first-child{
+    font-size: 30px;
+    color:#525252;
+    padding-bottom:40px;
+}
+.imgText6 li{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.imgText6 li div{
+    position: relative;
+}
+.imgText6 li div.imgText-img{
+    position: relative;
+}
+.imgText6 li div.imgText-img>img{
+    width:100%;
+}
+.imgText6 li div.imgText-text{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color: transparent;
+}
+.imgText6 li div.imgText-text>h2{
+    font-size: 25px;
+    color:#dcdcdc;
+    text-align: left;
+    padding-left:20px;
+    padding-bottom:20px; 
+}
+.imgText6 li div.imgText-text>p{
+    font-size: 16px;
+    color:#dcdcdc;
+    padding-left:20px;
+    padding-bottom:20px;
+    text-align: left;
+    
+}
+.imgText6-img li{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.imgText6-imgli div{
+    position: relative;
+}
+.imgText6-img li div.imgText-img{
+    position: relative;
+    
+}
+.imgText6-img li.imgTextShadow{
+    width:266px;
+    height:120px;
+    line-height:120px;
+    box-shadow:1px 1px 8px rgba(0,0,0,0.3);
+    margin-right: 60px;
+    border-radius: 6px;
+    margin-bottom:60px;
+}
+.imgText6-img li div.imgText-img>img{
+    width:100%;
+}
+.imgText6-img li div.imgText-img>p{
+    font-size:30px;
+    color:#494949;
+    
+}
+.imgText6-img li.imgTextShadow div.imgText-img>p{
+    font-size:25px;
+    color:#494949;
+    
+}
+.animated {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }

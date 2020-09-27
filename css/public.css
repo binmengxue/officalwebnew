@@ -1,0 +1,222 @@
+.main{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .contentOuter{
+      width:100%;
+      background:-moz-linear-gradient(bottom, #E53A43 0%,#BA1C25 100%); /* firefox */
+      background:-webkit-linear-gradient(bottom, #E53A43 0%,#BA1C25 100%); /* chrome */
+      background:-o-linear-gradient(bottom, #E53A43 0%,#BA1C25 100%); /* opera */
+      background:-ms-linear-gradient(bottom, #E53A43 0%,#BA1C25 100%); /* ie */
+      background: linear-gradient(to bottom, #E53A43 0%,#BA1C25 100%); /* firefox */
+  }
+  .content{
+      height:100px;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative;	
+  }
+  .content>img{
+      position: absolute;
+      left:0px;
+      top:25px;
+      cursor: pointer;
+  }
+  .nav{
+      height:40px;
+      line-height: 40px;
+  }
+  .nav li{
+      color:#fff;
+      opacity: 1;
+      cursor: pointer;
+      margin-right:0;
+      height:100%;
+      border-radius: 0;
+  }
+  .nav li a{
+      display: block;
+      color:#fff;
+      width:100%;
+      height:100%;
+      font-size:16px;
+      padding: 0px 20px;
+      font-weight: 200;
+      box-sizing: border-box;
+      border-radius: 0;
+      background-color: transparent;
+      color:#fff;
+
+  }
+  .nav li a:hover,.nav li a:focus,.nav li a.active{
+    background-color: #fff;
+    color:#B53138;
+  }
+  .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+      background-color: #fff;
+      color:#B53138;
+  }
+  .dropdown-menu{
+      background-color: #fff;
+      min-width: 105px;
+      left: 0px;
+      border-radius: 0;
+      border: 0px solid rgba(0,0,0,.15);
+  }
+  .dropdown-menu>li{
+      padding:0px 0px;
+      height:100%;
+      overflow: hidden;
+  }
+  .dropdown-menu>li>a{
+      display: block;
+      width:100%;
+      height:100%;
+      font-size:16px;
+      padding: 10px 0px;
+      text-align: center;
+  
+  }
+  .dropdown-menu li ,.dropdown-menu li a{
+      color:#222;
+  }
+  .dropdown-menu li a:hover,.dropdown-menu li a.active{
+      color: #f00;
+      border-right:0px;
+  }
+  .dropdown-menu>.disabled>a:focus,.dropdown-menu>.disabled>a:hover {
+      text-decoration: none;
+      cursor: not-allowed;
+      background-color: transparent;
+      background-image: none;
+      filter:none
+  }
+  .bananer{
+      width:100%;
+      position: relative;
+  }
+  .bananer>img{
+      width:100%;
+      animation: acid 1s 1 1s ;
+  }
+  .bananer-text{
+      position: absolute;
+      left:50%;
+      margin-left:-350px;
+      top:50%;
+      margin-top:-90px;
+      text-align: center;
+  }
+  .bananer-p1{
+    font-size:68px;
+    color:#fff;
+    letter-spacing:20px;
+  }
+  .bananer-p2{
+    font-size:24px;
+    color:#fff;
+    margin-top:40px;
+    letter-spacing:10px;
+    font-weight: 100;
+  }
+  .contentMain{
+    width:100%;
+    position: relative;
+    background-image:url('../img/index/backgroud-img1.png');
+    background-size:100% 600px;
+    -moz-background-size:100% 600px;
+    background-position: center;
+  }
+  .contentMainNoBack{
+      width:100%;
+      position: relative;
+  }
+   .ContText{
+      height:auto;
+      z-index: 2;
+      position: relative;      
+  }
+  .ContText .h2{
+      color:#B9363D;
+      font-size:40px;
+      padding-top:120px;
+      padding-bottom:60px;
+      font-weight: bold;
+  
+  }
+  .ContText .p{
+      color:#222;
+      font-size:18px;
+      letter-spacing:2px;
+      line-height: 30px;
+      padding-bottom:20px;
+      text-align: left;
+  } 
+  footer{
+	padding:20px 0 20px 0;;
+	background: #B6262E;
+	width:100%;
+}
+footer h2{
+	font-size: 0.14rem;
+	color: #fff;
+	font-weight: 100;
+}
+footer p{
+	font-size: 0.16rem;
+	color: #fff;
+	font-weight: 100;
+}
+.scorllTop{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    bottom:66px;
+    right:30px;
+    font-size: 14px;
+    background: #da0000;
+    color:#fff;
+    cursor: pointer;
+    z-index: 2000;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    animation: myfirst 0.5s;
+    -moz-animation: myfirst 0.5s;	/* Firefox */
+    -webkit-animation: myfirst 0.5s;	/* Safari 和 Chrome */
+    -o-animation: myfirst 0.5s;
+    opacity: 1;
+    margin-top:0px;
+    }
+    @keyframes myfirst
+    {
+    from {	margin-top:100px;opacity: 0;}
+    60%{margin-top:0px;opacity: 0.6;}
+    to { margin-top:0;opacity: 1;}
+    }
+    
+    @-moz-keyframes myfirst /* Firefox */
+    {
+        from {	margin-top:100px;opacity: 0;}
+        60%{margin-top:0px;opacity: 0.6;}
+        to { margin-top:0;opacity: 1;}
+    }
+    
+    @-webkit-keyframes myfirst /* Safari 和 Chrome */
+    {
+        from {	margin-top:100px;opacity: 0;}
+        60%{margin-top:0px;opacity: 0.6;}
+        to { margin-top:0;opacity: 1;}
+    }
+    
+    @-o-keyframes myfirst /* Opera */
+    {
+        from {	margin-top:100px;opacity: 0;}
+        60%{margin-top:0px;opacity: 0.6;}
+        to { margin-top:0;opacity: 1;}
+    }
+    

@@ -1,0 +1,52 @@
+.imgText{
+
+}
+.imgText li{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.imgText li div{
+    position: relative;
+}
+.imgText li div.imgText-img{
+    position: relative;
+    margin-right:20px;
+}
+.imgText li div.imgText-img>h2{
+    position: absolute;
+    font-size: 30px;
+    color:#fff;
+    width:100%;
+    height:100%;
+}
+.imgText li div.imgText-img>img{
+    width:100%;
+}
+.imgText li div.imgText-text{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: #E1363F;
+    top:0;
+    opacity: 0;
+    -webkit-transform:translate3d(0, -100%, 0);
+    transform:translate3d(0,-100%, 0);
+}
+.imgText li div.imgText-text>h2{
+    font-size: 30px;
+    padding-bottom:30px;
+    color:#fff;
+}
+.imgText li div.imgText-text>p{
+    font-size: 16px;
+    padding-bottom:15px;
+    color:#EDE4E4;
+    
+}
+.animated {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }

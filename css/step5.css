@@ -1,0 +1,74 @@
+.ContText>p.p:first-child{
+    font-size: 30px;
+    color:#525252;
+    padding-bottom:40px;
+}
+.imgText{
+
+}
+.imgText1 li{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom:60px;
+}
+.imgText1 li div{
+    position: relative;
+}
+.imgText1 li div.imgText-img{
+    position: relative;
+    height:400px;
+    background: #E1363F;
+    margin-right:20px;
+}
+
+.imgText1 li div.imgText-text{
+    position: absolute;
+    padding:0px 40px;
+    height:100%;
+    top:0;
+}
+.imgText1 li div.imgText-text>h2{
+    font-size: 30px;
+    padding-bottom:10px;
+    color:#fff;
+}
+.imgText1 li div.imgText-text>p{
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom:15px;
+    color:#EDE4E4;
+    
+}
+.animated {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.step5Three h2{
+    font-size: 30px;
+    color:#0D0D0D;
+    padding-bottom:30px;
+
+}
+.step5Three p{
+    font-size: 18px;
+    color:#5E5E5E;
+    padding-bottom:20px; 
+    text-align: left;
+}
+.textImg2 li {
+
+}
+.textImg2 li div{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background: #E1363F;
+}
+.textImg2 li div p{
+    font-size: 30px;
+    color:#fff;
+}
